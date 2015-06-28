@@ -3,12 +3,15 @@
 #include <I2Cdev.h>
 #include <MPU6050.h>
 
-void setup() {
-  // put your setup code here, to run once:
+Tobi tobi;
 
+void setup() {
+  tobi = Tobi();
+  tobi.enable();
+  
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
 }
+

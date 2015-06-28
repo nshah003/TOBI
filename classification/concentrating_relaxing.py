@@ -4,7 +4,7 @@ import serial
 import time
 
 if(len(sys.argv) != 2):
-	print 'Usage: python rest_chewing_accel.py <output file>'
+	print 'Usage: python concentrating_relaxing.py <output file>'
 	sys.exit(0)
 
 f = open(sys.argv[1], 'w')
